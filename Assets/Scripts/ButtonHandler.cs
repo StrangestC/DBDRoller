@@ -15,6 +15,7 @@ public class ButtonHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     void Update()
     {
+        // When mouse is over button (please) set correct animation state
         // animSelf.SetBool("over", EventSystem.current.IsPointerOverGameObject());
     }
 
